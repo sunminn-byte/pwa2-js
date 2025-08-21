@@ -58,6 +58,7 @@ function myChk(callback) {
   callback();
 }
 // ()익명함수 : 이름이 없는 함수. 단발성으로 사용
-// myChk(() => console.log('콜백함수'));
+// myChk(() => console.log('콜백함수')); >익명함수
+// () => console.log('콜백함수'); >63번이 이렇게 되면 익명함수
 const test11 = () => console.log('콜백함수');
 myChk(test11);
