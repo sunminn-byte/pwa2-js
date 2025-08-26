@@ -7,6 +7,7 @@ const date1 = new Date('1990-02-23 14:30:00');
 const date2 = new Date(1980, 10, 10, 23, 0, 1);
 const date3 = new Date(48948654652);
 
+console.log(now);
 console.log(date1);
 console.log(date2);
 console.log(date3);
