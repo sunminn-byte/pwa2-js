@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 600px;
+  border: 1px solid #000;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.align-center-flex {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.print-box {
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  padding: 5px;
+  width: 200px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+/* ----------------- 서비스 ----------------- */
+/* 2. 아이템 클릭하면 완료, 다시 클릭하면 풀리기 */
+.toggle-line-through {
+  text-decoration: line-through;
+}
