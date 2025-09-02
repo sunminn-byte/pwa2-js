@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  padding: 10px;
+}
+
+#apiUrl {
+  width: 300px;
+}
+
+.card-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 10px;
+}
+
+.card {
+  padding-top: 70%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.loading {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.loading > p {
+  width: 100px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.loading-on {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
